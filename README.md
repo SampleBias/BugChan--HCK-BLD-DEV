@@ -2,7 +2,7 @@
 
 *the only good bug is a dead buug - Starship troopers*
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/SampleBias/BugChan--HCK-BLD-DEV)
 
 BugChan is a minimalist, single-page, anonymous web application designed for logging transient issues for the HCK-BLD-DEV team. Inspired by the simple, direct aesthetic of message boards like 4chan, it provides a streamlined user experience. The application features an anonymous issue submission form, a public, reverse-chronological issue board where all posts ('bugs') are automatically hidden from view 24 hours after submission, and a simple bar chart dashboard visualizing the most common error types reported within the last 24 hours. The entire application is built on the Cloudflare serverless stack, using a React frontend and a Hono-based Worker backend with a single Durable Object for all data persistence, ensuring high performance and scalability.
 
@@ -83,7 +83,7 @@ This application is designed to be deployed to Cloudflare's global network.
 
 Alternatively, you can deploy directly from your GitHub repository using the button below.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/SampleBias/BugChan--HCK-BLD-DEV)
 
 ## API Endpoints
 
